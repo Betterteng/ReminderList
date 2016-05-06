@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40946CCF1CC1521400C3CF02 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40946CCE1CC1521400C3CF02 /* DetailController.swift */; };
 		40BF88E91CC11729004DAA50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF88E81CC11729004DAA50 /* AppDelegate.swift */; };
-		40BF88EB1CC11729004DAA50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF88EA1CC11729004DAA50 /* ViewController.swift */; };
 		40BF88EE1CC11729004DAA50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40BF88EC1CC11729004DAA50 /* Main.storyboard */; };
-		40BF88F11CC11729004DAA50 /* ReminderList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40BF88EF1CC11729004DAA50 /* ReminderList.xcdatamodeld */; };
 		40BF88F31CC11729004DAA50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40BF88F21CC11729004DAA50 /* Assets.xcassets */; };
 		40BF88F61CC11729004DAA50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40BF88F41CC11729004DAA50 /* LaunchScreen.storyboard */; };
 		40BF89011CC11729004DAA50 /* ReminderListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF89001CC11729004DAA50 /* ReminderListTests.swift */; };
 		40BF890C1CC11729004DAA50 /* ReminderListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF890B1CC11729004DAA50 /* ReminderListUITests.swift */; };
+		40BF891A1CC11783004DAA50 /* ReminderListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF89191CC11783004DAA50 /* ReminderListController.swift */; };
+		40BF891C1CC117BA004DAA50 /* AddReminderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF891B1CC117BA004DAA50 /* AddReminderController.swift */; };
+		40BF891E1CC11B76004DAA50 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF891D1CC11B76004DAA50 /* Reminder.swift */; };
+		40BF89201CC11BAC004DAA50 /* ReminderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF891F1CC11BAC004DAA50 /* ReminderCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40946CCE1CC1521400C3CF02 /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 		40BF88E51CC11729004DAA50 /* ReminderList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReminderList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40BF88E81CC11729004DAA50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		40BF88EA1CC11729004DAA50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		40BF88ED1CC11729004DAA50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		40BF88F01CC11729004DAA50 /* ReminderList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReminderList.xcdatamodel; sourceTree = "<group>"; };
 		40BF88F21CC11729004DAA50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40BF88F51CC11729004DAA50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40BF88F71CC11729004DAA50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		40BF89071CC11729004DAA50 /* ReminderListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReminderListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40BF890B1CC11729004DAA50 /* ReminderListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListUITests.swift; sourceTree = "<group>"; };
 		40BF890D1CC11729004DAA50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40BF89191CC11783004DAA50 /* ReminderListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderListController.swift; sourceTree = "<group>"; };
+		40BF891B1CC117BA004DAA50 /* AddReminderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddReminderController.swift; sourceTree = "<group>"; };
+		40BF891D1CC11B76004DAA50 /* Reminder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		40BF891F1CC11BAC004DAA50 /* ReminderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +105,16 @@
 		40BF88E71CC11729004DAA50 /* ReminderList */ = {
 			isa = PBXGroup;
 			children = (
+				40BF88F71CC11729004DAA50 /* Info.plist */,
+				40BF891B1CC117BA004DAA50 /* AddReminderController.swift */,
 				40BF88E81CC11729004DAA50 /* AppDelegate.swift */,
-				40BF88EA1CC11729004DAA50 /* ViewController.swift */,
-				40BF88EC1CC11729004DAA50 /* Main.storyboard */,
+				40946CCE1CC1521400C3CF02 /* DetailController.swift */,
+				40BF891D1CC11B76004DAA50 /* Reminder.swift */,
+				40BF891F1CC11BAC004DAA50 /* ReminderCell.swift */,
+				40BF89191CC11783004DAA50 /* ReminderListController.swift */,
 				40BF88F21CC11729004DAA50 /* Assets.xcassets */,
 				40BF88F41CC11729004DAA50 /* LaunchScreen.storyboard */,
-				40BF88F71CC11729004DAA50 /* Info.plist */,
-				40BF88EF1CC11729004DAA50 /* ReminderList.xcdatamodeld */,
+				40BF88EC1CC11729004DAA50 /* Main.storyboard */,
 			);
 			path = ReminderList;
 			sourceTree = "<group>";
@@ -259,9 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40BF88F11CC11729004DAA50 /* ReminderList.xcdatamodeld in Sources */,
-				40BF88EB1CC11729004DAA50 /* ViewController.swift in Sources */,
+				40946CCF1CC1521400C3CF02 /* DetailController.swift in Sources */,
+				40BF89201CC11BAC004DAA50 /* ReminderCell.swift in Sources */,
+				40BF891C1CC117BA004DAA50 /* AddReminderController.swift in Sources */,
 				40BF88E91CC11729004DAA50 /* AppDelegate.swift in Sources */,
+				40BF891A1CC11783004DAA50 /* ReminderListController.swift in Sources */,
+				40BF891E1CC11B76004DAA50 /* Reminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +498,7 @@
 				40BF89121CC11729004DAA50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40BF89131CC11729004DAA50 /* Build configuration list for PBXNativeTarget "ReminderListTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +507,7 @@
 				40BF89151CC11729004DAA50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40BF89161CC11729004DAA50 /* Build configuration list for PBXNativeTarget "ReminderListUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,21 +516,9 @@
 				40BF89181CC11729004DAA50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		40BF88EF1CC11729004DAA50 /* ReminderList.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				40BF88F01CC11729004DAA50 /* ReminderList.xcdatamodel */,
-			);
-			currentVersion = 40BF88F01CC11729004DAA50 /* ReminderList.xcdatamodel */;
-			path = ReminderList.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 40BF88DD1CC11729004DAA50 /* Project object */;
 }
